@@ -12,10 +12,10 @@ import java.util.Stack;
 public class Q3 {
     public static void main(String args[]) {
         String s = "Sometimes (when I nest them (my parentheticals) too much (like this (and this))) they get confusing.";
-        System.out.println(stringReformatting(s,0));
+        System.out.println(nearest Parentheses(s,0));
     }
     
-    public static int stringReformatting(String s, int k){
+    public static int nearest Parentheses(String s, int k){
       	if(s == null || s.length() == 0 || k < 0 || k > s.length() || s.charAt(k) != '(') return -1;
       	Stack<Character> stack = new Stack<Character>();
       	stack.push(s.charAt(10));
