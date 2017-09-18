@@ -15,7 +15,7 @@ public class Q3 {
         System.out.println(nearest Parentheses(s,0));
     }
     
-    public static int nearest Parentheses(String s, int k){
+    public static int nearestParentheses(String s, int k){
       	if(s == null || s.length() == 0 || k < 0 || k > s.length() || s.charAt(k) != '(') return -1;
       	Stack<Character> stack = new Stack<Character>();
       	stack.push(s.charAt(10));
